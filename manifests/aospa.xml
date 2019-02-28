@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA-mata/manifest" remote="github" groups="aospa" />
+  <project path="manifest" name="AOSPA-mata/manifest" remote="github" revision="pie" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
@@ -72,7 +72,7 @@
   <project path="system/sepolicy" name="AOSPA/android_system_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="AOSPA-mata/android_vendor_pa" remote="github" groups="aospa" >
+  <project path="vendor/pa" name="AOSPA-mata/android_vendor_pa" remote="github" revision="pie" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/codeaurora/telephony" />
