@@ -734,4 +734,6 @@
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
 
+  <!-- Open gapps manifest -->
+  <include name="manifests/opengapps.xml"/>
 </manifest>
